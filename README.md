@@ -25,14 +25,13 @@ class Model:
 Link: [Statistics](Statistics.ipynb).
 
 ### №1
-X,Y are a Rundom Variables taken from Normal Distribution: X ~ N(e1,q1^2) , Y ~ N(e2,q2^2)
+X,Y are a Rundom Variables taken from Normal Distribution: ```X ~ N(e1,q1^2) , Y ~ N(e2,q2^2)```
 
+```
 corr(X,Y) = p
-
-S = aX+bY (a and b - const)
-
+S = aX + bY (a and b - const)
 (a+b = 1 , 0<=a<=1, 0<=b<=1 )
-
+```
 What 'a' and 'b' should be chosen in order to minimise var[S] ?
 
 Write analytical AND numerical solutions to this problem using Jupyter Notebook
@@ -57,7 +56,7 @@ Use the generated paths for numerical pricing of option using Delta Hedging (ign
 P.S Prioritize the correctnes of the calculations over speed, but the faster the algo the better.
 
 ### №3
-You are given random variables from a Normal Distribution : X~N(mu,s), mu= 0 , s - ?
+You are given random variables from a Normal Distribution : ```X ~ N(mu,s), mu= 0 , s - ?```
 
 Suppose that random variables are equivalent to daily log-returns of the stock
 
